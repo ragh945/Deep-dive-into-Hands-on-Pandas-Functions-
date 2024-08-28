@@ -5,7 +5,7 @@ from PIL import Image
 
 # Upload the CSV file
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
-Pandas = Image.open(r"C:\Users\RAGHAVENDRA KUMAR\Downloads\Pandas.jpg")
+Pandas = Image.open("Pandas.jpg")
 st.image(Pandas, use_column_width=True)
 st.title("Hands-On Pandas Functions in Streamlit")
 
