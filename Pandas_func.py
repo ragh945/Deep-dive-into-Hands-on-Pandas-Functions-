@@ -125,25 +125,25 @@ if uploaded_file is not None:
             "description": "Returns the mean of the DataFrame's numerical columns.",
             "syntax": "df.mean()",
             "example": "df.mean()",
-            "result": lambda df: df.mean()
+            "result": lambda df: df.mean(numeric_only=True)
         },
         "median": {
             "description": "Returns the median of the DataFrame's numerical columns.",
             "syntax": "df.median()",
             "example": "df.median()",
-            "result": lambda df: df.median()
+            "result": lambda df: df.median(numeric_only=True)
         },
         "var": {
             "description": "Returns the variance of the DataFrame's numerical columns.",
             "syntax": "df.var()",
             "example": "df.var()",
-            "result": lambda df: df.var()
+            "result": lambda df: df.var(numeric_only=True)
         },
         "std": {
             "description": "Returns the standard deviation of the DataFrame's numerical columns.",
             "syntax": "df.std()",
             "example": "df.std()",
-            "result": lambda df: df.std()
+            "result": lambda df: df.std(numeric_only=True)
         },
         "to_datetime": {
             "description": "Converts a column to datetime.",
