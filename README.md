@@ -3,6 +3,8 @@
 ## Aim of the Project:
 The aim of this project is to provide a hands-on, interactive platform to explore and understand the functionalities of various Pandas DataFrame operations using Streamlit. This application is designed to help users, particularly data science enthusiasts and beginners, gain practical experience with essential Pandas functions by visualizing their effects on real datasets.
 
+- Click here https://pythonprojects-ijqn4bzrkvyzastpo8a6c5.streamlit.app/ for Deployment Link.
+
 ## Key Features:
 - Interactive DataFrame Exploration: Upload a CSV file and interactively explore it using various Pandas functions, including describe, value_counts, crosstab, groupby, and more.
 - Function Descriptions and Syntax: For each selected Pandas function, the app provides detailed descriptions, syntax examples, and typical usage examples.
@@ -17,3 +19,8 @@ The aim of this project is to provide a hands-on, interactive platform to explor
 - Matplotlib: For creating visualizations like boxplots.
 - PIL (Python Imaging Library): To display images within the Streamlit app.
 - This project offers a comprehensive and interactive approach to learning Pandas functions, making it easier for users to understand and apply these functions in real-world data analysis tasks.
+
+![image](https://github.com/user-attachments/assets/3d93ad21-38ea-40e3-9c37-77d8356430a5)
+![image](https://github.com/user-attachments/assets/94de5191-51f3-41d7-bead-29459f013621)
+
+
